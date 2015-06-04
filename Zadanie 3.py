@@ -26,6 +26,10 @@ for x in list4:
 print "\nCzesc B:"
 dict = {}
 lista_pomocnicza = []
+
+"""
+W petli zastosowane rzutowania w celu wyswietlenia wartosci w slowniku w postaci krotki
+"""
 for x in list4:
     lenght = len(x)
     if (dict.has_key(lenght)):
